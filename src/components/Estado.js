@@ -14,7 +14,7 @@ export default class estado extends Component {
         this.state = {
             contador: 0,
             session: false,
-            roles: ['admin', 'editor', 'userPremium']
+            roles: ['admininistrador', 'editor', 'userPremium']
         }
 
         setInterval(() => {
